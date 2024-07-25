@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 1000px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: 1% 33% 0 28%;
+    height: 50%;
+}
+h2{
+    font-size: 50px;
+}
+.element{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2%;
+    
+}
+.element>input[type='text']{
+    width: 80%;
+}
+.element>input[type="button"]{
+    width: 20%;
+    transition: 1s;
+}
+.element>input[type="button"]:hover{
+    scale: 0.9;
+}
+.addbtn{
+    color:white;
+    background-color: rgb(54, 125, 238);
+}
+.rmvbtn{
+    color:white;
+    background-color: red;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>projet 2</title>
+</head>
+<body>
+    <div class="container">
+        <h2>
+            To Do List
+        </h2>
+        <form action="distination.php" method="post" name="form" >
+            <div class="element">
+                <input type="text" name="" id="add" placeholder="Add a new task ... ">
+                <input type="button" value="add" class="addbtn" onclick="addelement()">
+            </div>
+            <div class="element">
+                <input type="text" name="" id="remove" placeholder="Task that's complete ">
+                <input type="button" value="Delete" class="rmvbtn" onclick="removeelement()">
+            </div>
+            <div class="">
+                <h4>Task that's incomplete</h4>
+                <ul id="list">
+                    
+                </ul>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
